@@ -4,14 +4,14 @@ const list = document.querySelector(".list-items");
 const search = document.querySelector(".search_button");
 const button = document.querySelector("button");
 
-var firebaseConfig = {
-    apiKey: "AIzaSyCVC1981N0Zoqaq0k0qDh8AxsA1QfiQa6M",
-    authDomain: "javascript-cbb73.firebaseapp.com",
-    projectId: "javascript-cbb73",
-    storageBucket: "javascript-cbb73.appspot.com",
-    messagingSenderId: "746364085870",
-    appId: "1:746364085870:web:cd9982b7999653b56d287f",
-    measurementId: "G-G9MFDXZ79H"
+  var firebaseConfig = {
+    apiKey: "AIzaSyAGwNfGqlB_KOIy51_dI9CbD3Wo7-HbMho",
+    authDomain: "js2021-293be.firebaseapp.com",
+    projectId: "js2021-293be",
+    storageBucket: "js2021-293be.appspot.com",
+    messagingSenderId: "16815526041",
+    appId: "1:16815526041:web:a004cb73326227189a6808",
+    measurementId: "G-1DZYQTFVQL"
   };
 firebase.initializeApp(firebaseConfig);
 const db = firebase.firestore();
