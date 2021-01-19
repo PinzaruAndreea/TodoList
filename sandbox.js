@@ -20,7 +20,7 @@ const db = firebase.firestore();
 const addItem = (item, id) => {
     let html = `
         <li class= flex-item data-id="${id}">
-            <span>${item.Today}</span>
+            <span>${item.todo}</span>
             <i class="far fa-trash-alt delete"></i>
         </li>
     `;
