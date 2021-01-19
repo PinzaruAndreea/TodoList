@@ -1,0 +1,82 @@
+html {
+    background-color: #35325D;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.header {
+    text-align: center;
+}
+
+.header h1 {
+    font: bold 4rem "Montserrat", sans-serif;
+    color: #ECEBE6;
+    text-align: center;
+    padding-top: 2rem ;
+}
+
+.search_button {
+    padding: 0.8rem 6.5rem 0.8rem 1rem;
+    background-color: #1A172D;
+    color: white;
+    border-radius: 5px;
+}
+
+.search_button::placeholder {
+    text-align: left;
+    color: #c2c2c2;
+}
+
+.list-items {
+    text-decoration: none;
+    padding:0;
+}
+
+.flex-item {
+    display: flex;
+    justify-content: space-between;
+    margin: 0.5rem 0;
+    padding: 1rem 2rem 1rem 3rem;
+    font: 1.5rem "Montserrat", sans-serif;
+    background-color: #433D72;
+    color: #ECEBE6;
+    border-radius: 5px;
+}
+
+.far {
+    padding-left: 2rem;
+    cursor: pointer;
+}
+
+.new_list {
+    display: flex;
+    flex-direction: column;
+}
+
+.new_item {
+    font: 1.5rem "Montserrat",sans-serif;
+    color: #ECEBE6;
+    margin: 1rem 3rem;
+}
+
+.input_search {
+    padding: 0.5rem;
+    background-color: #1A172D;
+    color: white;
+    border-radius: 5px;
+}
+
+.filtered {
+    display: none !important;
+}
+
+button {
+    background-color:#292444;
+    padding: 0.5rem 0.5rem;
+    border-radius: 5px;
+    color:#c2c2c2;
+}

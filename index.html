@@ -1,0 +1,33 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+  <link rel="stylesheet" href="main.css">
+  <title>Todo List</title>
+</head>
+<body>
+  <header class="header">
+    <h1>Todo List</h1>
+    <form>
+      <input class="search_button" type="text" name="search" placeholder="search todos" />
+    </form>
+  </header>
+  <div class= "content">
+    <ul class="list-items">
+    </ul>
+
+    <form class="new_list">
+      <label class="new_item">Add a new todo...</label>
+      <input class="input_search" type="text" name="add" />
+    </form>
+    <button>Unsubscribe from changes</button>
+  </div>
+ 
+  
+  <script src="https://www.gstatic.com/firebasejs/8.2.0/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/8.2.0/firebase-firestore.js"></script>
+  <script src="sandbox.js"></script>
+</body>
+</html>
